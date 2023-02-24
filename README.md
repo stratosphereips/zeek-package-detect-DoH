@@ -10,9 +10,9 @@ This command
 
 ```bro -C -i wlp3s0 zeek-package-detect-DoH```
 
-Will result in the following column ssl.log
+Will result in the following ```is_DoH``` column ssl.log
 
-![ssl.log](  )
+![ssl.log]( https://raw.githubusercontent.com/stratosphereips/zeek-package-detect-DoH/main/images/is_DoH_field.png )
 
 
-The is_DoH value of IP 64.20.34.50 is set to T because it is a DoH server.
+The ```is_DoH``` value of IP ```64.20.34.50``` is set to ```T``` because it is a DoH server.
