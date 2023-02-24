@@ -1,0 +1,4 @@
+[package]
+description = Detect DoH servers by adding a is_DoH field in ssl.log and add timeout to them so that the DoH connection won't take too long
+tags = zeek plugin, DoH, features extraction, ssl, DNS
+version=master
